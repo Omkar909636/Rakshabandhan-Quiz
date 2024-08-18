@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raksha Bandhan Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎉 Raksha Bandhan Quiz 🎉</h1>
+            <p>Let’s see how much you know about this special day!</p>
+        </header>
+        
+        <div class="quiz-container">
+            <div id="question-container">
+                <h2 id="question">Question goes here...</h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <!-- Answer buttons will be dynamically generated here -->
+                </div>
+            </div>
+        </div>
+
+        <div id="result" class="result hidden">
+            <h2>🎊 Congratulations! 🎊</h2>
+            <p>Happy Raksha Bandhan from your loving brother Omkar!</p>
+            <img src="images/rakhi.png" alt="Rakhi">
+            <button id="restart-btn">Play Again</button>
+        </div>
+    </div>
+
+    <audio id="bg-music" src="sounds/background-music.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
